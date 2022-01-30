@@ -2,7 +2,7 @@
     "family": "hello-world-1",
     "containerDefinitions": [
         {
-            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
+            "image": "nginx-test",
             "name": "hello-world-1",
             "cpu": 10,
             "memory": 256,
